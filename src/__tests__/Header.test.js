@@ -12,4 +12,4 @@ test("renders a <h1> with the blog name", () => {
   const h1 = screen.queryByText("Underreacted");
   expect(h1).toBeInTheDocument();
   expect(h1.tagName).toBe("H1");
-});
+});;
